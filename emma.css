@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+    background-color: hsla(0, 0%, 0%, 0.959);
+    padding: 0 1%;
+}
+
+:root {
+
+    --main-color: rgba(0, 0, 0, 0.938);
+    --second-color: whitesmoke;
+
+    --third-color: #ff0000;
+}
+.menu i{
+    display: flex;
+}
+.menu i b{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-left: 5px;
+    font-size: 25px;
+}
+.menu {
+    color: var(--second-color);
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    margin: Opx;
+    display: flex;
+    padding: 0px;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+nav ul li{
+    padding: auto;
+    list-style: none;
+    padding: 0px 10px 0px 0px;
+}
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--second-color);
+    margin: auto 20px 0px;
+    padding: 7px;
+}
+nav ul li a:hover {
+    list-style: none;
+    color: var(--third-color);
+    text-decoration: none;
+    border: 1px solid #f9004d;
+    border-radius: 0px 5px;
+}
+.entete {
+
+    background-image: linear-gradient(to left, rgba(54, 52, 52, 0.267), rgba(54, 52, 52, 0.253)), url(images/e1\ \(3\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 400px 0px;
+  
+
+}
+
+.entete h2 {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: var(--second-color);
+    width: 150px;
+    margin: auto;
+}
+.sourligne{
+    margin: auto;
+     width: 150px;
+     height: 2px; 
+    padding: 0;
+    margin: 0; 
+     border: 1px solid var(--third-color);
+     background-color: var(--third-color);
+}
+.center{
+    margin: auto;
+}
+.title{
+    color: var(--main-color);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 23px;
+}
+
+.white{
+    color: white !important;
+}
+
+.title span{
+    color: var(--third-color);
+}
+
+.lien {
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 10px;
+    text-transform: uppercase;
+    color: var(--second-color);
+    text-align: center;
+}
+
+.lien:hover{
+    background-color: var(--third-color);
+    color: var(--second-color);
+}
+
+.liene:hover{
+    background-color: var(--third-color);
+    color: var(--second-color);
+}
+.lient:hover{
+     background-color: hsla(0, 0%, 0%, 0.959);
+    color: var(--third-color);
+}
+
+.evenements {
+    margin-left: 0px;
+    width: 25%;
+    padding-top: 2px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #ff0000;
+}
+
+h2 {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: var(--second-color);
+    text-align: center;
+}
+
+.sousimage {
+    padding:80px 50px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.image-background{
+    background-image: url(images/67969e9b34c99bce02d4eb86118eb452.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.sousimage p:first-child {
+    color: var(--main-color);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+
+.deuxp {
+
+    color: var(--main-color);
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+
+.deuxpp {
+
+    color: var(--second-color);
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 18px;
+    padding: 0 21%;
+}
+
+.corps {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.corps img{
+    object-fit: fill;
+   width: 50%;
+    height: 28rem;
+}
+
+.sousimages {
+    
+    background-color: rgba(17, 17, 17, 0.219);
+}
+
+.sousimages p {
+    margin: 0px;
+}
+
+
+
+.sousimages p:first-child {
+    font-size: 35px;
+    color: var(--second-color);
+    letter-spacing: 2px;
+}
+
+.mots {
+    color: white !important;
+    font-size: 23px;
+}
+
+.deuxppe {
+    font-size: 18px;
+    color: var(--second-color);
+    text-align: left;
+    padding-bottom: 25px;
+    padding-top: 7%;
+}
+
+.pied {
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 2% 1%;
+}
+
+.pied img {
+    width: 20%;
+    height: 50%;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.pied p {
+    color: var(--second-color);
+    font-size: 19px;
+    margin-left: 20px;
+}
+
+.pied p span {
+    color: var(--third-color);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.liene {
+
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 10px;
+    text-transform: uppercase;
+    color: var(--second-color);
+    text-align: center;
+   
+}
+
+.lient {
+    
+    position: sticky;
+    left: 15pc;    
+    color: black ;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 10px;
+    text-transform: uppercase;
+    color: var(--second-color);
+    text-align: center;
+   
+}
+
+
+@media screen and (max-width : 900px) and (min-width : 10px) {
+   
+
+    .pied img {
+        width: 20%;
+        height: 50%;
+    }
+
+    .corps img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .entete h2 {
+        border: 1px solid black;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.753);
+        color: var(--second-color);
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+
+    .lien {
+        text-decoration: none;
+        border: 1px solid transparent;
+        background-color: rgba(0, 0, 0, 0.753);
+        padding: 10px;
+      
+        text-transform: uppercase;
+        color: var(--second-color);
+        text-align: center;
+       
+    }
+
+    .deuxpp {
+
+        color: var(--second-color);
+        letter-spacing: 1px;
+        text-align: left;
+        font-size: 18px;
+        padding: 0% 7%;
+    }
+
+    .sousimage p:first-child {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    
+
+    .lient {
+
+      position: sticky;
+        left: 50%;
+
+    }
+    .corps {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .deuxppe a{
+       margin-bottom: 30px;
+    }
+    .sousimages {
+
+        padding: 3% 4% 7% 7% !important;
+     }
+     
+     .menu i b {
+        font-size: 12px;
+        margin: auto;
+        margin-left: 5px;
+    }
+    nav ul li a {
+        font-size: 12px;
+        margin: auto 9px 0px;
+    }
+    nav ul li a :hover{
+        border-radius: 3px;
+    }
+
+}
